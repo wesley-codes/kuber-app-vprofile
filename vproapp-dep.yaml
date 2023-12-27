@@ -16,7 +16,7 @@ spec:
           spec:
               containers:
                   - name: vproapp
-                    image: meka124/vprofileapp:latest
+                    image: meka124/vprofileapp
                     ports:
                         - name: vproapp-port
                           containerPort: 8080
